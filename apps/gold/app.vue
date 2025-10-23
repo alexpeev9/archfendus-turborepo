@@ -1,6 +1,4 @@
 <script setup lang="ts">
-import { Page } from "ui";
-import { name } from "./package.json";
 import type { Girl } from "./types/girl";
 
 useHead({
@@ -20,8 +18,6 @@ const {
 
 <template>
   <div>
-    <Page :app-name="name" />
-
     <div class="container">
       <h1>Meet Our Gold Members</h1>
 
