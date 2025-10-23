@@ -1,7 +1,7 @@
 # Archfendus TurboRepo
 
-[Deployed](https://archfendus-turborepo-web.vercel.app) app
-[Deployed](https://archfendus-turborepo-docs.vercel.app) docs
+- [Live](https://archfendus-turborepo-web.vercel.app) app
+- [Live](https://archfendus-turborepo-docs.vercel.app) docs
 
 ## What's inside?
 
