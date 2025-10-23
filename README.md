@@ -1,5 +1,7 @@
 # Archfendus TurboRepo
 
+The Archfendus TurboRepo is a monorepo setup that organizes multiple projects and shared packages under one structure for efficient development and maintenance.
+
 - [Live](https://archfendus-turborepo-web.vercel.app) app
 - [Live](https://archfendus-turborepo-docs.vercel.app) docs
 
