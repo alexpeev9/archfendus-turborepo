@@ -1982,6 +1982,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/node@npm:^24.9.1":
+  version: 24.9.1
+  resolution: "@types/node@npm:24.9.1"
+  dependencies:
+    undici-types: "npm:~7.16.0"
+  checksum: 10c0/c52f8168080ef9a7c3dc23d8ac6061fab5371aad89231a0f6f4c075869bc3de7e89b075b1f3e3171d9e5143d0dda1807c3dab8e32eac6d68f02e7480e7e78576
+  languageName: node
+  linkType: hard
+
 "@types/normalize-package-data@npm:^2.4.0":
   version: 2.4.4
   resolution: "@types/normalize-package-data@npm:2.4.4"
@@ -10282,6 +10291,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"undici-types@npm:~7.16.0":
+  version: 7.16.0
+  resolution: "undici-types@npm:7.16.0"
+  checksum: 10c0/3033e2f2b5c9f1504bdc5934646cb54e37ecaca0f9249c983f7b1fc2e87c6d18399ebb05dc7fd5419e02b2e915f734d872a65da2e3eeed1813951c427d33cc9a
+  languageName: node
+  linkType: hard
+
 "undici@npm:^7.16.0":
   version: 7.16.0
   resolution: "undici@npm:7.16.0"
@@ -11009,6 +11025,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "with-vue-nuxt@workspace:."
   dependencies:
+    "@types/node": "npm:^24.9.1"
     prettier: "npm:^3.2.5"
     turbo: "npm:^2.5.8"
   languageName: unknown
