@@ -899,7 +899,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nuxt/devtools@npm:^2.6.5, @nuxt/devtools@npm:latest":
+"@nuxt/devtools@npm:*, @nuxt/devtools@npm:^2.6.5, @nuxt/devtools@npm:latest":
   version: 2.6.5
   resolution: "@nuxt/devtools@npm:2.6.5"
   dependencies:
@@ -7479,17 +7479,16 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "nuxt-base@workspace:packages/nuxt-base"
   dependencies:
+    "@nuxt/devtools": "npm:*"
+    "@nuxtjs/eslint-config-typescript": "npm:^12.1.0"
+    eslint: "npm:^8.57.0"
+    eslint-config-custom: "npm:*"
+    nuxt: "npm:^3.10.3"
+    sass-embedded: "npm:^1.93.2"
+    tsconfig: "npm:*"
     ui: "npm:*"
-  peerDependencies:
-    "@nuxt/devtools": "*"
-    "@nuxtjs/eslint-config-typescript": ^12.1.0
-    eslint: ^8.57.0
-    eslint-config-custom: "*"
-    nuxt: ^3.10.3
-    sass-embedded: ^1.93.2
-    tsconfig: "*"
-    vue: ^3.4.21
-    vue-router: ^4.3.0
+    vue: "npm:^3.4.21"
+    vue-router: "npm:^4.3.0"
   languageName: unknown
   linkType: soft
 

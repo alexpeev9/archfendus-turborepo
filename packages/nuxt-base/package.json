@@ -6,7 +6,7 @@
   "dependencies": {
     "ui": "*"
   },
-  "peerDependencies": {
+  "devDependencies": {
     "@nuxt/devtools": "*",
     "@nuxtjs/eslint-config-typescript": "^12.1.0",
     "eslint": "^8.57.0",
