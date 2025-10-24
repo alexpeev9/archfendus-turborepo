@@ -1,4 +1,6 @@
 <script lang="ts" setup>
+import { GirlCard } from "ui";
+
 definePageMeta({ layout: "page" });
 useHead({ title: "Gold Dating Site" });
 
@@ -18,13 +20,7 @@ const { data: girls, pending, error } = await useGetGirls("gold");
       </div>
 
       <div v-else-if="girls" class="girls-grid">
-        <div v-for="girl in girls" :key="girl.name" class="girl-card">
-          <img :src="girl.image" :alt="girl.name" class="girl-image" />
-          <div class="girl-info">
-            <h3 class="girl-name">{{ girl.name }}</h3>
-            <p class="girl-description">{{ girl.description }}</p>
-          </div>
-        </div>
+        <GirlCard v-for="girl in girls" :key="girl.name" :girl="girl" />
       </div>
     </div>
   </div>
