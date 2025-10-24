@@ -1,4 +1,5 @@
 <script lang="ts" setup>
+import { useGetGirls } from "nuxt-base/composables/use-get-girls";
 import { GirlCard } from "ui";
 
 definePageMeta({ layout: "page" });

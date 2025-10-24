@@ -1,0 +1,20 @@
+{
+  "name": "nuxt-base",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "ui": "*"
+  },
+  "peerDependencies": {
+    "@nuxt/devtools": "*",
+    "@nuxtjs/eslint-config-typescript": "^12.1.0",
+    "eslint": "^8.57.0",
+    "eslint-config-custom": "*",
+    "nuxt": "^3.10.3",
+    "sass-embedded": "^1.93.2",
+    "tsconfig": "*",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.0"
+  }
+}
