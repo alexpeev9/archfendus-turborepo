@@ -2,10 +2,8 @@
   "name": "nuxt-base",
   "version": "0.0.0",
   "private": true,
-  "type": "module",
-  "dependencies": {
-    "ui": "*"
-  },
+  "main": "./index.ts",
+  "types": "./index.ts",
   "devDependencies": {
     "@nuxt/devtools": "*",
     "@nuxtjs/eslint-config-typescript": "^12.1.0",

@@ -8,6 +8,6 @@
     "allowImportingTsExtensions": true,
     "noEmit": true
   },
-  "include": ["**/*.ts", "**/*.vue"],
+  "include": ["."],
   "exclude": ["node_modules"]
 }

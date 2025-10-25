@@ -12,7 +12,8 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "ui": "*"
+    "ui": "*",
+    "nuxt-base": "*"
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
