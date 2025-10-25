@@ -1,0 +1,15 @@
+// Typography
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background: var(--bg-dark);
+  color: var(--text-light);
+  overflow-x: hidden;
+}
+
+section {
+  scroll-margin-top: 70px;
+}

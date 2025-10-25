@@ -29,7 +29,6 @@ useHead({ title: "Home" });
           />
           <circle cx="50" cy="50" r="5" fill="url(#logoGrad)" />
         </svg>
-        <span class="logo-text">NOIR</span>
       </a>
       <ul class="nav-links">
         <li><a href="#home" class="nav-link active">Home</a></li>
@@ -328,9 +327,8 @@ useHead({ title: "Home" });
           <div class="testimonial-card">
             <div class="testimonial-rating">★★★★★</div>
             <div class="testimonial-quote">
-              "NOIR has completely transformed my wardrobe. The quality and
-              attention to detail is unmatched. Every piece feels like a work of
-              art."
+              "wE completely transformed my wardrobe. The quality and attention
+              to detail is unmatched. Every piece feels like a work of art."
             </div>
             <div class="testimonial-author">
               <div class="author-avatar">S</div>
@@ -345,7 +343,7 @@ useHead({ title: "Home" });
             <div class="testimonial-rating">★★★★★</div>
             <div class="testimonial-quote">
               "The sustainable approach combined with luxury design is exactly
-              what I was looking for. NOIR proves you don't have to compromise."
+              what I was looking for.
             </div>
             <div class="testimonial-author">
               <div class="author-avatar">M</div>
@@ -485,7 +483,7 @@ useHead({ title: "Home" });
   <footer>
     <div class="footer-content">
       <div class="footer-brand">
-        <h3>NOIR</h3>
+        <h3>Redefine</h3>
         <p>
           Redefining fashion with bold designs, sustainable practices, and
           uncompromising quality. Join us in creating the future of style.
@@ -529,16 +527,6 @@ useHead({ title: "Home" });
       </div>
     </div>
     <div class="footer-bottom">
-      <p>
-        &copy; 2025 NOIR. All rights reserved. | Designed by
-        <a
-          href="https://templatemo.com"
-          target="_blank"
-          rel="nofollow"
-          style="color: var(--accent); text-decoration: none"
-          >TemplateMo</a
-        >
-      </p>
       <div class="payment-methods">
         <div class="payment-icon">VISA</div>
         <div class="payment-icon">MC</div>
