@@ -18,13 +18,6 @@ const props = defineProps<{
           <a href="#" class="social-link">f</a>
         </div>
       </div>
-      <div class="footer-column">
-        <h4>Dating</h4>
-        <ul>
-          <li><a href="#">Gold</a></li>
-          <li><a href="#">Silver</a></li>
-        </ul>
-      </div>
     </div>
   </footer>
 </template>

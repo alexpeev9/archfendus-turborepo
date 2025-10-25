@@ -5,9 +5,10 @@ import strings from "~/assets/strings.json";
 
 definePageMeta({ layout: "page" });
 useHead({ title: strings.title });
+const heroPath = "/images/hero.webp";
 </script>
 
 <template>
-  <Hero />
+  <Hero :heroPath="heroPath" />
   <GirlDataList :site="strings.site" />
 </template>

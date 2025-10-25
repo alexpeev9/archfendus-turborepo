@@ -1,3 +1,9 @@
+<script setup lang="ts">
+const props = defineProps<{
+  heroPath: string;
+}>();
+</script>
+
 <template>
   <section class="hero" id="home">
     <div class="hero-bg"></div>
@@ -37,7 +43,7 @@
         <div class="hero-image-wrapper">
           <div class="hero-carousel">
             <div class="carousel-slide active">
-              <img src="/images/fashion-hero-01.avif" alt="Beautiful Woman 1" />
+              <img :src="props.heroPath" alt="Beautiful Woman 1" />
             </div>
             <div class="carousel-overlay"></div>
           </div>
