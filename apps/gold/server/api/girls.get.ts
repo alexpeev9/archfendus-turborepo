@@ -1,4 +1,4 @@
-import type { Girl } from "~/types/girl";
+import type { GirlData } from "shared-types";
 
 export default defineEventHandler(async (event) => {
   const query = getQuery(event);
@@ -17,7 +17,7 @@ export default defineEventHandler(async (event) => {
   }
 
   // Different girls for each site
-  const goldGirls: Girl[] = [
+  const goldGirls: GirlData[] = [
     {
       name: "Emma",
       image: `${apiUrl}/images/1.jpeg`,
@@ -38,7 +38,7 @@ export default defineEventHandler(async (event) => {
     },
   ];
 
-  const silverGirls: Girl[] = [
+  const silverGirls: GirlData[] = [
     {
       name: "Olivia",
       image: `${apiUrl}/images/4.jpeg`,

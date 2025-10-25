@@ -1,7 +1,3 @@
 <template>
-  <LayoutPageNavbar />
-  <LayoutPageContent>
-    <slot />
-  </LayoutPageContent>
-  <LayoutPageFooter />
+  <slot />
 </template>

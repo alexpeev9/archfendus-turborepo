@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "nuxt-base": "*",
+    "shared-types": "*",
     "ui": "*"
   },
   "devDependencies": {
