@@ -9,19 +9,6 @@
   --bg-dark: #000;
   --bg-section: #0a0a0a;
 
-  // Additional Colors Found in Styles
-  --black: #000;
-  --white: #fff;
-  --gray-100: #f5f5f5;
-  --gray-200: #e5e5e5;
-  --gray-300: #d4d4d4;
-  --gray-400: #a3a3a3;
-  --gray-500: #737373;
-  --gray-600: #525252;
-  --gray-700: #404040;
-  --gray-800: #262626;
-  --gray-900: #171717;
-
   // Background Gradients
   --bg-gradient-1: linear-gradient(135deg, #1a1a1a, #0a0a0a);
   --bg-gradient-2: linear-gradient(45deg, #2a2a2a, #1a1a1a);
@@ -59,54 +46,69 @@
   --shadow-accent-strong: rgba(255, 51, 102, 0.4);
   --shadow-white: rgba(0, 0, 0, 0.2);
 
-  // Special Effect Colors
-  --conic-gradient: conic-gradient(
-    from 180deg at 50% 50%,
-    #ff3366 0deg,
-    #000 60deg,
-    #ff3366 120deg,
-    #000 180deg,
-    #ff3366 240deg,
-    #000 300deg,
-    #ff3366 360deg
-  );
+  // Additional Colors Found in Styles
+  --black: #000;
+  --white: #fff;
+  --gray-100: #f5f5f5;
+  --gray-200: #e5e5e5;
+  --gray-300: #d4d4d4;
+  --gray-400: #a3a3a3;
+  --gray-500: #737373;
+  --gray-600: #525252;
+  --gray-700: #404040;
+  --gray-800: #262626;
+  --gray-900: #171717;
 
-  --radial-gradient-1: radial-gradient(
-    circle at center,
-    transparent 0%,
-    rgba(0, 0, 0, 0.8) 100%
-  );
+  // Currently not used
 
-  --radial-gradient-2: radial-gradient(
-    circle at 30% 70%,
-    var(--accent) 0%,
-    transparent 50%
-  );
+  // // Special Effect Colors
+  // --conic-gradient: conic-gradient(
+  //   from 180deg at 50% 50%,
+  //   #ff3366 0deg,
+  //   #000 60deg,
+  //   #ff3366 120deg,
+  //   #000 180deg,
+  //   #ff3366 240deg,
+  //   #000 300deg,
+  //   #ff3366 360deg
+  // );
 
-  --linear-gradient-1: linear-gradient(
-    135deg,
-    rgba(0, 0, 0, 0.2) 0%,
-    transparent 50%,
-    rgba(0, 0, 0, 0.3) 100%
-  );
+  // --radial-gradient-1: radial-gradient(
+  //   circle at center,
+  //   transparent 0%,
+  //   rgba(0, 0, 0, 0.8) 100%
+  // );
 
-  --linear-gradient-2: linear-gradient(
-    45deg,
-    transparent 30%,
-    rgba(255, 51, 102, 0.1) 50%,
-    transparent 70%
-  );
+  // --radial-gradient-2: radial-gradient(
+  //   circle at 30% 70%,
+  //   var(--accent) 0%,
+  //   transparent 50%
+  // );
 
-  --linear-gradient-3: linear-gradient(
-    90deg,
-    transparent,
-    rgba(255, 51, 102, 0.5),
-    transparent
-  );
+  // --linear-gradient-1: linear-gradient(
+  //   135deg,
+  //   rgba(0, 0, 0, 0.2) 0%,
+  //   transparent 50%,
+  //   rgba(0, 0, 0, 0.3) 100%
+  // );
 
-  --linear-gradient-4: linear-gradient(
-    135deg,
-    rgba(255, 51, 102, 0.08),
-    rgba(255, 51, 102, 0.02)
-  );
+  // --linear-gradient-2: linear-gradient(
+  //   45deg,
+  //   transparent 30%,
+  //   rgba(255, 51, 102, 0.1) 50%,
+  //   transparent 70%
+  // );
+
+  // --linear-gradient-3: linear-gradient(
+  //   90deg,
+  //   transparent,
+  //   rgba(255, 51, 102, 0.5),
+  //   transparent
+  // );
+
+  // --linear-gradient-4: linear-gradient(
+  //   135deg,
+  //   rgba(255, 51, 102, 0.08),
+  //   rgba(255, 51, 102, 0.02)
+  // );
 }

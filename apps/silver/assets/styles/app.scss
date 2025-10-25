@@ -1,41 +1,39 @@
-.girls-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 20px;
-  margin-top: 20px;
-}
+:root {
+  // Primary Colors
+  --primary: #0a0a0a;
+  --accent: #c0c0c0;
+  --accent-hover: #a8a8a8;
+  --text-light: #ffffff;
+  --text-muted: #999;
+  --bg-dark: #000;
+  --bg-section: #0a0a0a;
 
-.girl-card {
-  background: white;
-  border-radius: 12px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  overflow: hidden;
-  transition: transform 0.2s ease;
-}
+  // Accent Gradients
+  --accent-gradient-1: linear-gradient(90deg, #c0c0c0, #e8e8e8);
+  --accent-gradient-2: linear-gradient(135deg, #c0c0c0, #e8e8e8);
+  --accent-gradient-3: linear-gradient(135deg, var(--accent), #e8e8e8);
+  --accent-gradient-4: linear-gradient(135deg, var(--accent), #a8a8a8);
 
-.girl-card:hover {
-  transform: translateY(-5px);
-}
+  // Text Gradients
+  --text-gradient-1: linear-gradient(135deg, #fff, var(--accent));
 
-.girl-image {
-  width: 100%;
-  height: 250px;
-  object-fit: cover;
-}
+  // Overlay Colors
+  --overlay-dark: rgba(0, 0, 0, 0.8);
+  --overlay-light: rgba(255, 255, 255, 0.1);
+  --overlay-accent: rgba(192, 192, 192, 0.1);
+  --overlay-accent-strong: rgba(192, 192, 192, 0.2);
+  --overlay-white: rgba(255, 255, 255, 0.05);
+  --overlay-white-strong: rgba(255, 255, 255, 0.2);
 
-.girl-info {
-  padding: 20px;
-}
+  // Border Colors
+  --border-light: rgba(255, 255, 255, 0.1);
+  --border-medium: rgba(255, 255, 255, 0.3);
+  --border-strong: rgba(255, 255, 255, 0.5);
+  --border-accent: rgba(192, 192, 192, 0.1);
 
-.girl-name {
-  font-size: 24px;
-  font-weight: bold;
-  margin-bottom: 10px;
-  color: #2c3e50;
-}
-
-.girl-description {
-  color: #666;
-  line-height: 1.5;
-  font-size: 16px;
+  // Shadow Colors
+  --shadow-dark: rgba(0, 0, 0, 0.5);
+  --shadow-accent: rgba(192, 192, 192, 0.3);
+  --shadow-accent-strong: rgba(192, 192, 192, 0.4);
+  --shadow-white: rgba(0, 0, 0, 0.2);
 }

@@ -2,31 +2,31 @@
 /* CSS Document */
 
 // 1. ABSTRACTS
-@import "abstracts/variables";
-@import "abstracts/functions";
-@import "abstracts/mixins";
-@import "abstracts/placeholders";
-@import "abstracts/animations";
+@use "abstracts/variables";
+@use "abstracts/functions";
+@use "abstracts/mixins";
+@use "abstracts/placeholders";
+@use "abstracts/animations";
 
 // 2. VENDORS
-@import "vendors/normalize";
+@use "vendors/normalize";
 
 // 3. BASE
-@import "base/reset";
-@import "base/typography";
+@use "base/reset";
+@use "base/typography";
 
 // 4. LAYOUT
-@import "layout/navigation";
-@import "layout/hero";
-@import "layout/footer";
+@use "layout/navigation";
+@use "layout/hero";
+@use "layout/footer";
 
 // 5. COMPONENTS
-@import "components/buttons";
-@import "components/cards";
-@import "components/forms";
+@use "components/buttons";
+@use "components/cards";
+@use "components/forms";
 
 // 6. PAGES
-@import "pages/home";
+@use "pages/home";
 
 // 7. THEMES
-@import "themes/mobile";
+@use "themes/mobile";
