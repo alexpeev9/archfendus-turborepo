@@ -1,6 +1,8 @@
 <script setup lang="ts">
+import type { GirlData } from "shared-types";
+
 const props = defineProps<{
-  girl: any;
+  girl: GirlData;
 }>();
 </script>
 

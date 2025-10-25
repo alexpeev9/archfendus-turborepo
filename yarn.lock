@@ -5698,6 +5698,7 @@ __metadata:
     eslint: "npm:^8.57.0"
     eslint-config-custom: "npm:*"
     nuxt: "npm:^3.10.3"
+    nuxt-base: "npm:*"
     sass-embedded: "npm:^1.93.2"
     tsconfig: "npm:*"
     ui: "npm:*"
@@ -7475,7 +7476,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nuxt-base@workspace:packages/nuxt-base":
+"nuxt-base@npm:*, nuxt-base@workspace:packages/nuxt-base":
   version: 0.0.0-use.local
   resolution: "nuxt-base@workspace:packages/nuxt-base"
   dependencies:
@@ -7485,8 +7486,8 @@ __metadata:
     eslint-config-custom: "npm:*"
     nuxt: "npm:^3.10.3"
     sass-embedded: "npm:^1.93.2"
+    shared-types: "npm:*"
     tsconfig: "npm:*"
-    ui: "npm:*"
     vue: "npm:^3.4.21"
     vue-router: "npm:^4.3.0"
   languageName: unknown
@@ -9534,6 +9535,15 @@ __metadata:
   checksum: 10c0/68733173026766fa0d9ecaeb07f0483f4c2dc70ca376b3b7c40b7cda909f94b0918f6c5ad5ce27a9160bdfb475efaa9d5e705a11d8eaae18f9835d20976028bc
   languageName: node
   linkType: hard
+
+"shared-types@npm:*, shared-types@workspace:packages/shared-types":
+  version: 0.0.0-use.local
+  resolution: "shared-types@workspace:packages/shared-types"
+  dependencies:
+    eslint-config-custom: "npm:*"
+    tsconfig: "npm:*"
+  languageName: unknown
+  linkType: soft
 
 "shebang-command@npm:^2.0.0":
   version: 2.0.0

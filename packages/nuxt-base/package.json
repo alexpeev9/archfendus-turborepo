@@ -4,6 +4,9 @@
   "private": true,
   "main": "./index.ts",
   "types": "./index.ts",
+  "dependencies": {
+    "shared-types": "*"
+  },
   "devDependencies": {
     "@nuxt/devtools": "*",
     "@nuxtjs/eslint-config-typescript": "^12.1.0",
