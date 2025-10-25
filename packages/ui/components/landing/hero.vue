@@ -45,7 +45,6 @@ const props = defineProps<{
             <div class="carousel-slide active">
               <img :src="props.heroPath" alt="Beautiful Woman 1" />
             </div>
-            <div class="carousel-overlay"></div>
           </div>
         </div>
       </div>

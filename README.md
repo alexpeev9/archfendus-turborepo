@@ -1,70 +1,109 @@
-# Archfendus Turborepo NuxtJS
+# Archfendus Turborepo
 
-## What's inside?
+A high-performance monorepo for creating lightning-fast sites using modern web technologies. Built with Nuxt.js, Vue 3, and TypeScript, this skeleton allows developers to rapidly deploy premium platforms with beautiful, responsive designs.
 
-This project includes the following packages/apps:
+## 🚀 Live Demos
 
-### Apps and Packages
+- **Gold Site**: [https://archfendus-gold.vercel.app/](https://archfendus-gold.vercel.app/)
+- **Silver Site**: [https://archfendus-silver.vercel.app/](https://archfendus-silver.vercel.app/)
 
-- `docs`: a [Nuxt](https://nuxt.com/) app
-- `web`: another [Vue3](https://vuejs.org/) app
-- `ui`: a stub Vue component library shared by both `web` and `docs` applications
-- `eslint-config-custom`: `eslint` configurations (includes `@nuxtjs/eslint-config-typescript` and `@vue/eslint-config-typescript`)
-- `tsconfig`: `tsconfig.json`s used throughout the monorepo
+## 🏗️ What's Inside?
 
-Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
+This Turborepo includes the following packages and applications:
 
-### Utilities
+### Apps
 
-This Turborepo has some additional tools already setup for you:
+- **`gold`**: Premium gold-themed site with luxury UI
+- **`silver`**: Elegant silver-themed site with sophisticated design
+- **`nuxt-base`**: Shared Nuxt.js base package with common functionality
+- **`ui`**: Reusable Vue 3 component library for the site elements
+- **`styles`**: Centralized SCSS styles with 7-1 architecture pattern
 
-- [TypeScript](https://www.typescriptlang.org/) for static type checking
-- [ESLint](https://eslint.org/) for code linting
-- [Prettier](https://prettier.io) for code formatting
+### Packages
 
-### Build
+- **`shared-types`**: TypeScript type definitions shared across all apps
+- **`tailwind-config`**: Shared Tailwind CSS configuration
+- **`eslint-config-custom`**: ESLint configurations for TypeScript and Vue
+- **`tsconfig`**: TypeScript configurations used throughout the monorepo
 
-To build all apps and packages, run the following command:
+## ✨ Features
+
+- **🎨 Multiple Themes**: Gold and Silver color schemes with CSS custom properties
+- **📱 Responsive Design**: Mobile-first approach with modern CSS Grid and Flexbox
+- **⚡ Performance**: Optimized with Nuxt.js SSR, lazy loading, and modern build tools
+- **🔧 TypeScript**: Full type safety across the entire monorepo
+- **🎯 Component Library**: Reusable UI components for rapid development
+- **📦 Monorepo**: Shared packages and efficient dependency management
+- **🎨 SCSS Architecture**: Organized styles following 7-1 pattern and Sass Guidelines
+
+## 🎨 Theming System
+
+The project features a sophisticated theming system with CSS custom properties:
+
+### Gold Theme
+
+- Primary: `#d9a200` (luxury gold)
+- Accent: `#ffed4e` (bright gold)
+- Sophisticated gradients and overlays
+
+### Silver Theme
+
+- Primary: `#c0c0c0` (pure silver)
+- Accent: `#e8e8e8` (light silver)
+- Elegant metallic gradients
+
+## 📁 Project Structure
 
 ```
-cd my-turborepo
-pnpm build
+archfendus-turborepo/
+├── apps/
+│   ├── gold/                # Gold-themed site
+│   └── silver/              # Silver-themed site
+├── packages/
+│   ├── nuxt-base/           # Shared Nuxt.js functionality
+│   ├── ui/                  # Vue 3 component library
+│   ├── styles/              # SCSS styles (7-1 pattern)
+│   ├── shared-types/        # TypeScript definitions
+│   └── tailwind-config/     # Tailwind CSS config
+└── turbo.json              # Turborepo configuration
 ```
 
-### Develop
+## 🚀 Deployment
 
-To develop all apps and packages, run the following command:
+Both sites are automatically deployed to Vercel:
 
-```
-cd my-turborepo
-pnpm dev
-```
+- **Gold**: [https://archfendus-gold.vercel.app/](https://archfendus-gold.vercel.app/)
+- **Silver**: [https://archfendus-silver.vercel.app/](https://archfendus-silver.vercel.app/)
+
+## 🛠️ Tech Stack
+
+- **Framework**: [Nuxt.js 3](https://nuxt.com/)
+- **Frontend**: [Vue 3](https://vuejs.org/) with Composition API
+- **Styling**: SCSS with 7-1 architecture + Tailwind CSS
+- **TypeScript**: Full type safety
+- **Monorepo**: [Turborepo](https://turborepo.com/)
+- **Deployment**: [Vercel](https://vercel.com/)
+
+## 🔧 Advanced Features
 
 ### Remote Caching
 
 > [!TIP]
-> Vercel Remote Cache is free for all plans. Get started today at [vercel.com](https://vercel.com/signup?/signup?utm_source=remote-cache-sdk&utm_campaign=free_remote_cache).
+> Vercel Remote Cache is free for all plans. Get started today at [vercel.com](https://vercel.com/signup?utm_source=remote-cache-sdk&utm_campaign=free_remote_cache).
 
-Turborepo can use a technique known as [Remote Caching](https://turborepo.com/docs/core-concepts/remote-caching) to share cache artifacts across machines, enabling you to share build caches with your team and CI/CD pipelines.
+Turborepo can use [Remote Caching](https://turborepo.com/docs/core-concepts/remote-caching) to share cache artifacts across machines, enabling you to share build caches with your team and CI/CD pipelines.
 
-By default, Turborepo will cache locally. To enable Remote Caching you will need an account with Vercel. If you don't have an account you can [create one](https://vercel.com/signup?utm_source=turborepo-examples), then enter the following commands:
+To enable Remote Caching:
 
-```
-cd my-turborepo
+```bash
+cd archfendus-turborepo
 npx turbo login
-```
-
-This will authenticate the Turborepo CLI with your [Vercel account](https://vercel.com/docs/concepts/personal-accounts/overview).
-
-Next, you can link your Turborepo to your Remote Cache by running the following command from the root of your Turborepo:
-
-```
 npx turbo link
 ```
 
-## Useful Links
+## 📚 Learn More
 
-Learn more about the power of Turborepo:
+### Turborepo Resources
 
 - [Tasks](https://turborepo.com/docs/crafting-your-repository/running-tasks)
 - [Caching](https://turborepo.com/docs/crafting-your-repository/caching)
@@ -72,3 +111,17 @@ Learn more about the power of Turborepo:
 - [Filtering](https://turborepo.com/docs/crafting-your-repository/running-tasks#using-filters)
 - [Configuration Options](https://turborepo.com/docs/reference/configuration)
 - [CLI Usage](https://turborepo.com/docs/reference/command-line-reference)
+
+### Framework Documentation
+
+- [Nuxt.js Documentation](https://nuxt.com/docs)
+- [Vue 3 Documentation](https://vuejs.org/guide/)
+- [TypeScript Documentation](https://www.typescriptlang.org/docs/)
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+**Built with ❤️ using Turborepo, Nuxt.js, and Vue 3**
