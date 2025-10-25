@@ -21,20 +21,34 @@ export default defineEventHandler(async (event) => {
     {
       name: "Emma",
       image: `${apiUrl}/images/server/1.jpeg`,
-      description:
-        "Adventure-loving photographer who loves hiking and capturing beautiful moments.",
+      age: 24,
+      location: "New York",
+      message: "Message Now",
+      status: "online",
     },
     {
       name: "Sophia",
       image: `${apiUrl}/images/server/2.jpeg`,
-      description:
-        "Art enthusiast and yoga instructor with a passion for wellness and mindfulness.",
+      age: 26,
+      location: "Los Angeles",
+      message: "Start Chat",
+      status: "verified",
     },
     {
       name: "Isabella",
       image: `${apiUrl}/images/server/3.jpeg`,
-      description:
-        "Chef and food blogger who loves experimenting with new recipes and cuisines.",
+      age: 23,
+      location: "Miami",
+      message: "Send Message",
+      status: "premium",
+    },
+    {
+      name: "Olivia",
+      image: `${apiUrl}/images/server/4.jpeg`,
+      age: 25,
+      location: "Chicago",
+      message: "Chat Now",
+      status: "active",
     },
   ];
 
@@ -42,20 +56,34 @@ export default defineEventHandler(async (event) => {
     {
       name: "Olivia",
       image: `${apiUrl}/images/server/4.jpeg`,
-      description:
-        "Music producer and DJ who loves electronic music and underground scenes.",
+      age: 25,
+      location: "Chicago",
+      message: "Chat Now",
+      status: "active",
     },
     {
       name: "Ava",
       image: `${apiUrl}/images/server/5.jpeg`,
-      description:
-        "Fashion designer and vintage collector with an eye for unique style.",
+      age: 22,
+      location: "Seattle",
+      message: "Say Hi",
+      status: "new",
     },
     {
       name: "Charlotte",
       image: `${apiUrl}/images/server/6.jpeg`,
-      description:
-        "Tech entrepreneur and coffee enthusiast who loves solving complex problems.",
+      age: 27,
+      location: "Boston",
+      message: "Message",
+      status: "verified",
+    },
+    {
+      name: "Isabella",
+      image: `${apiUrl}/images/server/3.jpeg`,
+      age: 23,
+      location: "Miami",
+      message: "Send Message",
+      status: "premium",
     },
   ];
 
