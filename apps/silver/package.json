@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "build": "nuxt build",
-    "dev": "nuxt dev --port 3001",
+    "dev": "nuxt dev --port 3000",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
@@ -23,6 +23,7 @@
     "eslint-config-custom": "*",
     "nuxt": "^3.10.3",
     "sass-embedded": "^1.93.2",
+    "styles": "*",
     "tsconfig": "*",
     "vue": "^3.4.21",
     "vue-router": "^4.3.0"

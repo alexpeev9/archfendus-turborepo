@@ -5701,6 +5701,7 @@ __metadata:
     nuxt-base: "npm:*"
     sass-embedded: "npm:^1.93.2"
     shared-types: "npm:*"
+    styles: "npm:*"
     tsconfig: "npm:*"
     ui: "npm:*"
     vue: "npm:^3.4.21"
@@ -9636,6 +9637,7 @@ __metadata:
     nuxt-base: "npm:*"
     sass-embedded: "npm:^1.93.2"
     shared-types: "npm:*"
+    styles: "npm:*"
     tsconfig: "npm:*"
     ui: "npm:*"
     vue: "npm:^3.4.21"
@@ -10093,6 +10095,14 @@ __metadata:
   checksum: 10c0/3cd141bf99891fd094bf8b2cca33343aafcf38a86e15dda27eb8e5e06423c2f88df6c0876641cb431eeee096147866682c9a2774082ec7b223e6f9acccf937dc
   languageName: node
   linkType: hard
+
+"styles@npm:*, styles@workspace:packages/styles":
+  version: 0.0.0-use.local
+  resolution: "styles@workspace:packages/styles"
+  dependencies:
+    sass-embedded: "npm:^1.93.2"
+  languageName: unknown
+  linkType: soft
 
 "superjson@npm:^2.2.2":
   version: 2.2.3
