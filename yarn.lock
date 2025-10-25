@@ -9634,6 +9634,7 @@ __metadata:
     eslint-config-custom: "npm:*"
     nuxt: "npm:^3.10.3"
     nuxt-base: "npm:*"
+    sass-embedded: "npm:^1.93.2"
     shared-types: "npm:*"
     tsconfig: "npm:*"
     ui: "npm:*"
