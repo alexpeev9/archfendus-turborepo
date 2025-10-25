@@ -30,15 +30,10 @@ const props = defineProps<{
         <span class="logo-text">{{ props.title }}</span>
       </a>
       <ul class="nav-links">
-        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#home" class="nav-link">Home</a></li>
         <li><a href="#girls" class="nav-link">Hot Girls</a></li>
-        <li><a href="#contact" class="nav-cta">Get In Touch</a></li>
+        <li><a href="#girls" class="nav-cta">Start Messaging</a></li>
       </ul>
-      <!-- <div class="menu-toggle" id="menuToggle">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div> -->
     </div>
   </nav>
 

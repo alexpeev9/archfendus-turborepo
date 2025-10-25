@@ -1,6 +1,4 @@
 <script setup lang="ts">
-import { GirlsList } from "nuxt-base";
-
 definePageMeta({ layout: "page" });
 useHead({ title: "About Us" });
 </script>
@@ -9,7 +7,6 @@ useHead({ title: "About Us" });
   <div>
     <div class="container">
       <h1>About Us</h1>
-      <GirlsList site="gold" />
     </div>
   </div>
 </template>

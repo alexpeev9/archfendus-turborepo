@@ -30,7 +30,7 @@
         </div>
         <div class="cta-group">
           <a href="#girls" class="cta-button primary">Start Messaging</a>
-          <a href="#featured" class="cta-button outline">View Profiles</a>
+          <a href="#girls" class="cta-button outline">View Profiles</a>
         </div>
       </div>
       <div class="hero-right">
