@@ -1,3 +1,3 @@
-import type { GirlData } from "./src/common";
+import type { GirlData } from "./types/common";
 
 export type { GirlData };
