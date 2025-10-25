@@ -1,12 +1,8 @@
 <script setup lang="ts">
-interface Girl {
-  name: string;
-  image: string;
-  description: string;
-}
+import type { GirlData } from "shared-types";
 
 const props = defineProps<{
-  girl: Girl;
+  girl: GirlData;
 }>();
 </script>
 
@@ -19,40 +15,3 @@ const props = defineProps<{
     </div>
   </div>
 </template>
-
-<style scoped>
-.girl-card {
-  background: white;
-  border-radius: 12px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  overflow: hidden;
-  transition: transform 0.2s ease;
-}
-
-.girl-card:hover {
-  transform: translateY(-5px);
-}
-
-.girl-image {
-  width: 100%;
-  height: 250px;
-  object-fit: cover;
-}
-
-.girl-info {
-  padding: 20px;
-}
-
-.girl-name {
-  font-size: 24px;
-  font-weight: bold;
-  margin-bottom: 10px;
-  color: #2c3e50;
-}
-
-.girl-description {
-  color: #666;
-  line-height: 1.5;
-  font-size: 16px;
-}
-</style>

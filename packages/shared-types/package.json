@@ -1,5 +1,5 @@
 {
-  "name": "ui",
+  "name": "shared-types",
   "version": "0.0.0",
   "private": true,
   "main": "./index.ts",
@@ -7,12 +7,8 @@
   "scripts": {
     "lint": "eslint ."
   },
-  "dependencies": {
-    "shared-types": "*"
-  },
   "devDependencies": {
     "eslint-config-custom": "*",
-    "tsconfig": "*",
-    "vue": "^3.4.21"
+    "tsconfig": "*"
   }
 }

@@ -20,11 +20,11 @@ export default defineNuxtConfig({
 
   css: [resolve("./assets/styles/app.scss")],
 
-  components: [
-    {
-      prefix: "Layout",
-      path: resolve("./components/layouts"),
-      global: true,
-    },
-  ],
+  // components: [
+  //   {
+  //     prefix: "Layout",
+  //     path: resolve("./components/layouts"),
+  //     global: true,
+  //   },
+  // ],
 });

@@ -1,11 +1,6 @@
 <script setup lang="ts">
+import { useGetGirls } from "nuxt-base/composables/use-get-girls";
 import { GirlCard } from "ui";
-
-interface Girl {
-  name: string;
-  image: string;
-  description: string;
-}
 
 useHead({
   title: "Silver Dating Site",
@@ -17,16 +12,8 @@ useHead({
   ],
 });
 
-// Get runtime config for API URL
-const config = useRuntimeConfig();
-const apiUrl = config.public.apiUrl;
-
 // Fetch girls data from Gold app API
-const {
-  data: girls,
-  pending,
-  error,
-} = await useFetch<Girl[]>(`${apiUrl}/api/girls?site=silver`);
+const { data: girls, pending, error } = await useGetGirls("silver");
 </script>
 
 <template>
