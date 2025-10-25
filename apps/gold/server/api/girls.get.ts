@@ -20,19 +20,19 @@ export default defineEventHandler(async (event) => {
   const goldGirls: GirlData[] = [
     {
       name: "Emma",
-      image: `${apiUrl}/images/1.jpeg`,
+      image: `${apiUrl}/images/server/1.jpeg`,
       description:
         "Adventure-loving photographer who loves hiking and capturing beautiful moments.",
     },
     {
       name: "Sophia",
-      image: `${apiUrl}/images/2.jpeg`,
+      image: `${apiUrl}/images/server/2.jpeg`,
       description:
         "Art enthusiast and yoga instructor with a passion for wellness and mindfulness.",
     },
     {
       name: "Isabella",
-      image: `${apiUrl}/images/3.jpeg`,
+      image: `${apiUrl}/images/server/3.jpeg`,
       description:
         "Chef and food blogger who loves experimenting with new recipes and cuisines.",
     },
@@ -41,19 +41,19 @@ export default defineEventHandler(async (event) => {
   const silverGirls: GirlData[] = [
     {
       name: "Olivia",
-      image: `${apiUrl}/images/4.jpeg`,
+      image: `${apiUrl}/images/server/4.jpeg`,
       description:
         "Music producer and DJ who loves electronic music and underground scenes.",
     },
     {
       name: "Ava",
-      image: `${apiUrl}/images/5.jpeg`,
+      image: `${apiUrl}/images/server/5.jpeg`,
       description:
         "Fashion designer and vintage collector with an eye for unique style.",
     },
     {
       name: "Charlotte",
-      image: `${apiUrl}/images/6.jpeg`,
+      image: `${apiUrl}/images/server/6.jpeg`,
       description:
         "Tech entrepreneur and coffee enthusiast who loves solving complex problems.",
     },
