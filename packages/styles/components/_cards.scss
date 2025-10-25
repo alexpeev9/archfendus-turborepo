@@ -1,0 +1,193 @@
+// Cards
+.collection-card {
+  position: relative;
+  background: var(--bg-gradient-1);
+  overflow: hidden;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  opacity: 0;
+  animation: fadeInUp 0.6s ease forwards;
+  border-radius: 8px;
+}
+
+.collection-card:nth-child(1) {
+  animation-delay: 0.1s;
+}
+
+.collection-card:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.collection-card:nth-child(3) {
+  animation-delay: 0.3s;
+}
+
+.collection-card:nth-child(4) {
+  animation-delay: 0.4s;
+}
+
+.collection-card:nth-child(5) {
+  animation-delay: 0.5s;
+}
+
+.collection-card:nth-child(6) {
+  animation-delay: 0.6s;
+}
+
+.collection-card:nth-child(7) {
+  animation-delay: 0.7s;
+}
+
+.collection-card:nth-child(8) {
+  animation-delay: 0.8s;
+}
+
+.collection-thumbnail {
+  width: 100%;
+  height: 300px;
+  background: var(--bg-gradient-2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  opacity: 0.5;
+  transition:
+    transform 0.5s ease,
+    opacity 0.5s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.collection-thumbnail::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    45deg,
+    transparent 30%,
+    var(--overlay-accent) 50%,
+    transparent 70%
+  );
+  transform: translateX(-100%);
+  transition: transform 0.8s ease;
+}
+
+.collection-card:hover .collection-thumbnail::after {
+  transform: translateX(100%);
+}
+
+.collection-thumbnail img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.collection-card:hover .collection-thumbnail {
+  transform: scale(1.05);
+  opacity: 0.8;
+}
+
+.collection-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px var(--overlay-accent-strong);
+}
+
+.card-content {
+  padding: 25px;
+  background: var(--overlay-dark);
+}
+
+.card-badge {
+  display: inline-block;
+  padding: 4px 12px;
+  background: var(--accent);
+  color: white;
+  font-size: 9px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 12px;
+  border-radius: 2px;
+}
+
+.card-title {
+  font-size: 22px;
+  margin-bottom: 8px;
+  font-weight: 700;
+}
+
+.card-subtitle {
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 11px;
+  margin-bottom: 12px;
+}
+
+.card-price {
+  font-size: 18px;
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.testimonial-card {
+  padding: 40px;
+  background: var(--overlay-white);
+  border: 1px solid var(--overlay-white);
+  border-radius: 12px;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.testimonial-card:hover {
+  background: var(--overlay-white);
+  transform: translateY(-5px);
+}
+
+.testimonial-quote {
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--text-light);
+  margin-bottom: 25px;
+  font-style: italic;
+}
+
+.testimonial-author {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.author-avatar {
+  width: 50px;
+  height: 50px;
+  background: var(--accent-gradient-3);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.author-info h4 {
+  font-size: 16px;
+  margin-bottom: 5px;
+  color: white;
+}
+
+.author-info p {
+  font-size: 14px;
+  color: var(--text-muted);
+}
+
+.testimonial-rating {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: var(--accent);
+  font-size: 14px;
+}

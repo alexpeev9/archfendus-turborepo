@@ -1,11 +1,9 @@
 <script setup lang="ts">
+import strings from "~/assets/strings.json";
 useHead({
-  title: "Silver Dating Site",
+  title: strings.title,
   meta: [
-    {
-      name: "description",
-      content: "Meet amazing women on our Silver platform",
-    },
+    { name: "description", content: "Meet amazing women on our platform" },
   ],
 });
 </script>

@@ -1,5 +1,8 @@
 export interface GirlData {
   name: string;
   image: string;
-  description: string;
+  age: number;
+  location: string;
+  message: string;
+  status: string;
 }

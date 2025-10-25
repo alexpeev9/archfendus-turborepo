@@ -1,0 +1,28 @@
+// Placeholders
+%button-base {
+  padding: 18px 40px;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 600;
+  font-size: 13px;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.4s ease;
+  display: inline-block;
+  cursor: pointer;
+}
+
+%card-base {
+  background: var(--bg-gradient-1);
+  border-radius: 8px;
+  transition: all 0.5s ease;
+  overflow: hidden;
+}
+
+%section-base {
+  padding: 120px 50px 100px;
+  max-width: 1400px;
+  margin: 0 auto;
+  position: relative;
+}
