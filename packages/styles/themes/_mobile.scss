@@ -33,7 +33,7 @@
   right: -100%;
   width: 100%;
   height: 100vh;
-  background: rgba(0, 0, 0, 0.98);
+  background: var(--overlay-dark);
   backdrop-filter: blur(20px);
   transition: right 0.3s ease;
   z-index: 999;

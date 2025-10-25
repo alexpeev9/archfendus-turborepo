@@ -3,7 +3,7 @@
   height: 100vh;
   position: relative;
   overflow: hidden;
-  background: #000;
+  background: var(--bg-dark);
 }
 
 .hero-bg {
@@ -23,13 +23,13 @@
   left: -25%;
   background: conic-gradient(
     from 180deg at 50% 50%,
-    #ff3366 0deg,
-    #000 60deg,
-    #ff3366 120deg,
-    #000 180deg,
-    #ff3366 240deg,
-    #000 300deg,
-    #ff3366 360deg
+    var(--accent) 0deg,
+    var(--bg-dark) 60deg,
+    var(--accent) 120deg,
+    var(--bg-dark) 180deg,
+    var(--accent) 240deg,
+    var(--bg-dark) 300deg,
+    var(--accent) 360deg
   );
   animation: spin 20s linear infinite;
   opacity: 0.15;
@@ -43,7 +43,7 @@
   background: radial-gradient(
     circle at center,
     transparent 0%,
-    rgba(0, 0, 0, 0.8) 100%
+    var(--overlay-dark) 100%
   );
 }
 
@@ -66,7 +66,7 @@
 .hero-badge {
   display: inline-block;
   padding: 8px 20px;
-  background: rgba(255, 51, 102, 0.1);
+  background: var(--overlay-accent);
   border: 1px solid var(--accent);
   color: var(--accent);
   font-size: 11px;
@@ -86,7 +86,7 @@
   background: linear-gradient(
     90deg,
     transparent,
-    rgba(255, 51, 102, 0.5),
+    var(--overlay-accent-strong),
     transparent
   );
   left: -30px;
@@ -124,7 +124,7 @@
 }
 
 .hero-title .accent {
-  background: linear-gradient(90deg, #ff3366, #ff6690);
+  background: var(--accent-gradient-1);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-style: italic;
@@ -195,7 +195,7 @@
   left: 50%;
   width: 0;
   height: 0;
-  background: rgba(255, 255, 255, 0.2);
+  background: var(--overlay-white-strong);
   border-radius: 50%;
   transform: translate(-50%, -50%);
   transition:
@@ -210,19 +210,19 @@
 
 .cta-button.primary:hover {
   transform: translateY(-2px);
-  box-shadow: 0 20px 40px rgba(255, 51, 102, 0.3);
+  box-shadow: 0 20px 40px var(--shadow-accent);
 }
 
 .cta-button.outline {
   background: transparent;
   color: white;
-  border: 1px solid rgba(255, 255, 255, 0.3);
+  border: 1px solid var(--border-medium);
   backdrop-filter: blur(10px);
 }
 
 .cta-button.outline:hover {
-  background: rgba(255, 255, 255, 0.05);
-  border-color: rgba(255, 255, 255, 0.5);
+  background: var(--overlay-white);
+  border-color: var(--border-strong);
   transform: translateY(-2px);
 }
 
@@ -247,7 +247,7 @@
   height: 100%;
   border-radius: 10px;
   overflow: hidden;
-  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 20px 60px var(--shadow-dark);
 }
 
 .carousel-slide {
@@ -286,7 +286,7 @@
 .indicator {
   width: 40px;
   height: 3px;
-  background: rgba(255, 255, 255, 0.3);
+  background: var(--border-medium);
   cursor: pointer;
   transition: all 0.3s ease;
   border-radius: 3px;
@@ -303,12 +303,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(
-    135deg,
-    rgba(0, 0, 0, 0.2) 0%,
-    transparent 50%,
-    rgba(0, 0, 0, 0.3) 100%
-  );
+  background: linear-gradient(135deg, var(--linear-gradient-1));
   pointer-events: none;
 }
 
@@ -322,8 +317,8 @@
 .tag {
   position: absolute;
   padding: 8px 16px;
-  background: rgba(0, 0, 0, 0.8);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: var(--overlay-dark);
+  border: 1px solid var(--border-light);
   backdrop-filter: blur(10px);
   color: white;
   font-size: 11px;
@@ -363,7 +358,7 @@
   display: block;
   width: 30px;
   height: 50px;
-  border: 2px solid rgba(255, 255, 255, 0.3);
+  border: 2px solid var(--border-medium);
   border-radius: 25px;
   position: relative;
 }

@@ -1,7 +1,7 @@
 // Cards
 .collection-card {
   position: relative;
-  background: linear-gradient(135deg, #1a1a1a, #0a0a0a);
+  background: var(--bg-gradient-1);
   overflow: hidden;
   cursor: pointer;
   transition: all 0.5s ease;
@@ -45,7 +45,7 @@
 .collection-thumbnail {
   width: 100%;
   height: 300px;
-  background: linear-gradient(45deg, #2a2a2a, #1a1a1a);
+  background: var(--bg-gradient-2);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -68,7 +68,7 @@
   background: linear-gradient(
     45deg,
     transparent 30%,
-    rgba(255, 51, 102, 0.1) 50%,
+    var(--overlay-accent) 50%,
     transparent 70%
   );
   transform: translateX(-100%);
@@ -92,12 +92,12 @@
 
 .collection-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 15px 30px rgba(255, 51, 102, 0.2);
+  box-shadow: 0 15px 30px var(--overlay-accent-strong);
 }
 
 .card-content {
   padding: 25px;
-  background: rgba(0, 0, 0, 0.95);
+  background: var(--overlay-dark);
 }
 
 .card-badge {
@@ -134,15 +134,15 @@
 
 .testimonial-card {
   padding: 40px;
-  background: rgba(255, 255, 255, 0.02);
-  border: 1px solid rgba(255, 255, 255, 0.05);
+  background: var(--overlay-white);
+  border: 1px solid var(--overlay-white);
   border-radius: 12px;
   position: relative;
   transition: all 0.3s ease;
 }
 
 .testimonial-card:hover {
-  background: rgba(255, 255, 255, 0.05);
+  background: var(--overlay-white);
   transform: translateY(-5px);
 }
 
@@ -163,7 +163,7 @@
 .author-avatar {
   width: 50px;
   height: 50px;
-  background: linear-gradient(135deg, var(--accent), #ff6690);
+  background: var(--accent-gradient-3);
   border-radius: 50%;
   display: flex;
   align-items: center;

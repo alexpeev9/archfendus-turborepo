@@ -4,7 +4,7 @@ nav {
   width: 100%;
   padding: 20px 50px;
   z-index: 1000;
-  background: rgba(0, 0, 0, 0.95);
+  background: var(--overlay-dark);
   backdrop-filter: blur(10px);
   animation: slideDown 0.8s ease;
   transition: all 0.3s ease;
@@ -12,8 +12,8 @@ nav {
 
 nav.scrolled {
   padding: 15px 50px;
-  background: rgba(0, 0, 0, 0.98);
-  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+  background: var(--overlay-dark);
+  box-shadow: 0 5px 20px var(--shadow-dark);
 }
 
 .nav-container {
@@ -47,7 +47,7 @@ nav.scrolled {
   font-size: 28px;
   font-weight: 900;
   letter-spacing: -2px;
-  background: linear-gradient(135deg, #fff, var(--accent));
+  background: var(--text-gradient-1);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -122,7 +122,7 @@ nav.scrolled {
 .nav-cta:hover {
   background: var(--accent-hover);
   transform: translateY(-2px);
-  box-shadow: 0 5px 15px rgba(255, 51, 102, 0.3);
+  box-shadow: 0 5px 15px var(--shadow-accent);
 }
 
 .nav-cta::before {
