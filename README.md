@@ -15,14 +15,13 @@ This Turborepo includes the following packages and applications:
 
 - **`gold`**: Premium gold-themed site with luxury UI
 - **`silver`**: Elegant silver-themed site with sophisticated design
-- **`nuxt-base`**: Shared Nuxt.js base package with common functionality
-- **`ui`**: Reusable Vue 3 component library for the site elements
-- **`styles`**: Centralized SCSS styles with 7-1 architecture pattern
 
 ### Packages
 
+- **`nuxt-base`**: Shared Nuxt.js base package with common functionality
+- **`ui`**: Reusable Vue 3 component library for the site elements
+- **`styles`**: Centralized SCSS styles with 7-1 architecture pattern
 - **`shared-types`**: TypeScript type definitions shared across all apps
-- **`tailwind-config`**: Shared Tailwind CSS configuration
 - **`eslint-config-custom`**: ESLint configurations for TypeScript and Vue
 - **`tsconfig`**: TypeScript configurations used throughout the monorepo
 
@@ -64,7 +63,6 @@ archfendus-turborepo/
 │   ├── ui/                  # Vue 3 component library
 │   ├── styles/              # SCSS styles (7-1 pattern)
 │   ├── shared-types/        # TypeScript definitions
-│   └── tailwind-config/     # Tailwind CSS config
 └── turbo.json              # Turborepo configuration
 ```
 
@@ -79,7 +77,7 @@ Both sites are automatically deployed to Vercel:
 
 - **Framework**: [Nuxt.js 3](https://nuxt.com/)
 - **Frontend**: [Vue 3](https://vuejs.org/) with Composition API
-- **Styling**: SCSS with 7-1 architecture + Tailwind CSS
+- **Styling**: SCSS with 7-1 architecture
 - **TypeScript**: Full type safety
 - **Monorepo**: [Turborepo](https://turborepo.com/)
 - **Deployment**: [Vercel](https://vercel.com/)
