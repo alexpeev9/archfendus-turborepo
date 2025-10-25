@@ -446,8 +446,7 @@ useHead({ title: "Home" });
               <h3>Visit Our Flagship Store</h3>
               <p>
                 123 Fashion Avenue<br />
-                Bangkok, Thailand 10110<br />
-                Siam District
+                Sofia, Bulgaria<br />
               </p>
             </div>
           </div>
@@ -457,8 +456,7 @@ useHead({ title: "Home" });
             <div class="info-content">
               <h3>Call Us</h3>
               <p>
-                Main: <a href="tel:+66021234567">+55 02 123 4567</a><br />
-                Support: <a href="tel:+66021234568">+55 02 123 4568</a><br />
+                Main: <a href="tel:+66021234567">+359 877 944 147</a><br />
                 Mon-Fri, 9AM-6PM ICT
               </p>
             </div>
