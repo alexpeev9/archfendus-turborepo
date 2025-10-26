@@ -11,8 +11,7 @@ const props = defineProps<{
         <h3>{{ props.title }}</h3>
         <p>
           Redefining connection with genuine chemistry, meaningful matches, and
-          a new standard of authenticity. Join us in shaping the future of
-          modern love.
+          a new standard of authenticity. Join us in shaping the future of love.
         </p>
         <div class="social-links">
           <a href="#" class="social-link">f</a>
