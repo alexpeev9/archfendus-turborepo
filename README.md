@@ -35,22 +35,6 @@ This Turborepo includes the following packages and applications:
 - **📦 Monorepo**: Shared packages and efficient dependency management
 - **🎨 SCSS Architecture**: Organized styles following 7-1 pattern and Sass Guidelines
 
-## 🎨 Theming System
-
-The project features a sophisticated theming system with CSS custom properties:
-
-### Gold Theme
-
-- Primary: `#d9a200` (luxury gold)
-- Accent: `#ffed4e` (bright gold)
-- Sophisticated gradients and overlays
-
-### Silver Theme
-
-- Primary: `#c0c0c0` (pure silver)
-- Accent: `#e8e8e8` (light silver)
-- Elegant metallic gradients
-
 ## 📁 Project Structure
 
 ```
@@ -66,12 +50,9 @@ archfendus-turborepo/
 └── turbo.json              # Turborepo configuration
 ```
 
-## 🚀 Deployment
+## 🗺️ App Schema
 
-Both sites are automatically deployed to Vercel:
-
-- **Gold**: [https://archfendus-gold.vercel.app/](https://archfendus-gold.vercel.app/)
-- **Silver**: [https://archfendus-silver.vercel.app/](https://archfendus-silver.vercel.app/)
+![Picture 1](./schema.webp)
 
 ## 🛠️ Tech Stack
 
