@@ -15,16 +15,7 @@ export default defineNuxtConfig({
   app: {
     // global transition
     pageTransition: { name: "page", mode: "out-in" },
-    layoutTransition: { name: "layout", mode: "out-in" },
   },
 
   css: ["styles", resolve("./assets/styles/app.scss")],
-
-  components: [
-    {
-      prefix: "Layout",
-      path: resolve("./components/layouts"),
-      global: true,
-    },
-  ],
 });

@@ -1,7 +1,12 @@
+<script setup>
+import { Footer, Header } from "ui";
+import strings from "~/assets/strings.json";
+</script>
+
 <template>
-  <LayoutPageNavbar />
-  <LayoutPageContent>
+  <Header :title="strings.title" />
+  <main>
     <slot />
-  </LayoutPageContent>
-  <LayoutPageFooter />
+  </main>
+  <Footer :title="strings.title" />
 </template>
