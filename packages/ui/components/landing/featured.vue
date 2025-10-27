@@ -1,3 +1,11 @@
+<script setup lang="ts">
+const props = defineProps<{
+  imagePath1: string;
+  imagePath2: string;
+  imagePath3: string;
+}>();
+</script>
+
 <template>
   <section class="featured" id="featured">
     <div class="featured-container">
@@ -42,13 +50,13 @@
         <div class="featured-image-section">
           <div class="featured-image-grid">
             <div class="featured-img">
-              <img src="images/girl-01.webp" alt="Happy Couple Dating" />
+              <img :src="imagePath1" alt="Girl 1" />
             </div>
             <div class="featured-img">
-              <img src="images/girl-02.webp" alt="Successful Match" />
+              <img :src="imagePath2" alt="Girl 2" />
             </div>
             <div class="featured-img">
-              <img src="images/girl-03.webp" alt="Perfect Connection" />
+              <img :src="imagePath3" alt="Girl 3" />
             </div>
           </div>
         </div>
