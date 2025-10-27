@@ -13,9 +13,15 @@ const props = defineProps<{
           Redefining connection with genuine chemistry, meaningful matches, and
           a new standard of authenticity. Join us in shaping the future of love.
         </p>
-        <div class="social-links">
-          <a href="#" class="social-link">f</a>
-        </div>
+      </div>
+      <div></div>
+      <div></div>
+      <div class="footer-column">
+        <h4>Links</h4>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#girls">Hot Girls</a></li>
+        </ul>
       </div>
     </div>
   </footer>
