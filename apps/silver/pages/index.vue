@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { GirlDataList } from "nuxt-base";
-import { Hero } from "ui";
+import { Hero, Testimonials } from "ui";
 import strings from "~/assets/strings.json";
 
 definePageMeta({ layout: "page" });
@@ -12,5 +12,6 @@ const heroPath = "/images/hero.webp";
   <div>
     <Hero :heroPath="heroPath" />
     <GirlDataList :site="strings.site" />
+    <Testimonials />
   </div>
 </template>
