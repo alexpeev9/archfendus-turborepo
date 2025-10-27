@@ -9,6 +9,8 @@ const heroPath = "/images/hero.webp";
 </script>
 
 <template>
-  <Hero :heroPath="heroPath" />
-  <GirlDataList :site="strings.site" />
+  <div>
+    <Hero :heroPath="heroPath" />
+    <GirlDataList :site="strings.site" />
+  </div>
 </template>
